@@ -1,0 +1,22 @@
+How To Build:
+-------------------
+
+1. Register for Bing Voice Recognition API (Beta)
+	http://datamarket.azure.com/dataset/bing/speechrecognition
+
+2. Edit include/bingsprec/constants.h
+	- Replace BINGSPREC_CLIENT_ID with your client id
+	- Replace BINGSPREC_CLIENT_SECRET with your client secret
+	- (In most cases) leave the other values alone
+
+3. Install the required libraries
+	- libcurl: sudo apt-get install libcurl4-openssl-dev
+	- uuid: sudo apt-get install uuid-dev
+
+4. Build bingsprec
+	- sudo make install
+
+5. Build the example
+	- sudo make simple
+
+
