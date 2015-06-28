@@ -1,3 +1,14 @@
+libbingsprec
+----------------
+If you, like me, want to leverage a speech-to-text API on devices 
+like the Raspberry Pi, then this library is for you. While there 
+are other similar libraries, all of them use Google's STT API 
+which has a relatively small rate limit (50 queries/day). Bing's
+public API, for example, has a limit of 5,000 queries/day on the 
+free tier, with the option to pay for more requests if needed.
+
+Feel free to make improvements and submit pull requests!
+
 How To Build:
 -------------------
 
@@ -19,4 +30,12 @@ How To Build:
 5. Build the example
 	- sudo make simple
 
+License:
+-------------------
+GNU LGPL-licensed. See LICENSE file.
+
+Credits:
+-------------------
+Inspiration from H2CO3's libsprec, which uses Google STT API instead of Bing's API.
+https://github.com/H2CO3/libsprec
 
