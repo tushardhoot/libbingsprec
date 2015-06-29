@@ -1,10 +1,10 @@
 libbingsprec
 ----------------
-If you, like me, want to leverage a speech-to-text API on devices 
+If you want to leverage a speech-to-text API on devices 
 like the Raspberry Pi, then this library is for you. While there 
 are other similar libraries, all of them use Google's STT API 
 which has a relatively small rate limit (50 queries/day). Bing's
-public API, on the other hand, has a limit of 5,000 queries/day 
+public API, on the other hand, has a limit of 5,000 queries/month 
 on the free tier, with the option to pay for more requests if 
 needed.
 
